@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%;
+  font-size: calc(1em * .625);
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #4a4949
+}
+
+header {  
+  text-align: center;
+  font-family: Merriweather, Georgia, serif;
+}
+
+.header {
+  min-height: 50px;
+  padding: 1rem 5%;
+
+}
+
+article {
+  padding: 8rem 5%;
+  background-color: #008cba;
+  color: #fff;
+}
+
+article section {
+  display: inline-block;
+  margin-right: 4%;
+  width: 30%;
+}
+
+article section:last-child {
+  margin-right: 0;
+}
+
+article section h3 {
+  text-align: center;
+  line-height: 1.6;
+}
+
+article section table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+article section table th {
+  border: 0;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #3d3c3c;
+  text-align: center;
+}
+
+article section table th:first-child {
+  background-color: #4a4949;
+}
+
+article section table th:nth-child(3) {
+  background-color: #303030;
+}
+
+article section table tbody {
+  background-color: white;
+  color: #4a4949;
+}
+
+article section table tbody tr:nth-child(2n) {
+  background-color: rgba(245, 245, 245, .8);
+}
+
+a {
+  background-color: transparent;
+  color: #cecece;
+}
+
+a:hover {
+  transition: color .25s;
+}
+
+a:active, a:hover {
+  color: #3d3c3c
+}
+
+.nasa {
+  background-color: #12274e;
+  color: #cecece;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+
+.nasa caption {
+  margin-top: 0;
+  padding: 0 0 2rem;
+  text-align-last: left;
+  color: white;
+}
+
+.nasa thead th {
+  color: white;
+  text-align: center;
+}
+
+.nasa tbody tr th {
+  text-align: left;
+}
+
+.nasa tbody tr td {
+  text-align: center;
+  padding: 8px;
+}
+
+.nasa tbody tr td:last-child {
+  text-align-last: left;
+}
+
+.mercury { color: #969559; }
+.venus { color: #ded4b8; }
+.earth { color: #6e75a0; }
+.mars { color: #d36540; }
+.jupiter { color: #e8b28e; }
+.saturn { color: #d0a673; }
+.uranus { color: #d1e7e9; }
+.neptune { color: #6491da; }
+.pluto { color: #d0ab88; }
